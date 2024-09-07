@@ -1,6 +1,5 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="en" dir="rtl">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -28,7 +27,23 @@
 </head>
 
 <body>
-
+    <header class="main_menu home_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div id="navbar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script>
+        <!-- fetch the navbar from navbar.html -->
+        fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+        })
+     </script>
 </body>
 
 </html>
