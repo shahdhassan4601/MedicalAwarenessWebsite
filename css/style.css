@@ -5451,15 +5451,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /*=================== contact banner start ====================*/
 /* line 3, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_contact.scss */
+
 .contact-info {
   margin-bottom: 25px;
 }
-
-/* line 6, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_contact.scss */
 .contact-info__icon {
-  margin-right: 20px;
+  margin-top: 8px;
 }
-
 /* line 9, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_contact.scss */
 .contact-info__icon i, .contact-info__icon span {
   color: #8f9195;
@@ -5468,9 +5466,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 17, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_contact.scss */
 .contact-info .media-body h3 {
-  font-size: 16px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: start;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 20px;
   color: #2a2a2a;
 }
 
@@ -5481,6 +5481,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 29, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_contact.scss */
 .contact-info .media-body p {
+  margin-right: 15px;
+  display: flex;
+  justify-content: start;
+  font-size: 16px;
   color: #8a8a8a;
 }
 
@@ -5488,9 +5492,10 @@ h1, h2, h3, h4, h5, h6 {
 /*=================== contact form start ====================*/
 /* line 39, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_contact.scss */
 .contact-title {
-  font-size: 27px;
+  font-size: 35px;
   font-weight: 600;
   margin-bottom: 20px;
+  float: right;
 }
 
 /* line 47, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_contact.scss */
@@ -5506,6 +5511,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 53, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_contact.scss */
 .form-contact .form-group .btn_1 {
   margin-bottom: -30px;
+  font-size: 20px;
 }
 
 /* line 58, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_contact.scss */
