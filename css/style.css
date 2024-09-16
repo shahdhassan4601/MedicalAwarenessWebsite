@@ -565,7 +565,8 @@ ul {
   font-family: "Roboto", sans-serif;
   background-size: 200% auto;
   border-radius: 5px;
-  display: inline-block;
+  display: flex;
+  width: fit-content;
 }
 
 /* line 81, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_button.scss */
@@ -5620,6 +5621,7 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-size: inherit;
+  margin-top: 100px;
 }
 
 /* line 6, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_breadcrumb.scss */
@@ -5649,6 +5651,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   text-transform: capitalize;
   text-align: center;
+  margin-right: 100px;
 }
 
 @media (max-width: 576px) {
