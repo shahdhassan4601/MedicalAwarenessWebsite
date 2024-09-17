@@ -717,7 +717,6 @@ ul {
 /* line 70, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_blog.scss */
 .single-blog .tag {
   text-align: left;
-  display: inline-block;
   float: left;
   font-size: 13px;
   font-weight: 300;
@@ -5915,5 +5914,31 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
 }
+.doctor_body {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
 
+}
+
+.doctor_body_img {
+  float: left; 
+  margin-right: 20px; 
+
+}
+
+.doctor_body .doctor_body_content {
+  position: relative;
+  text-align: right;
+}
+
+.doctor_body .doctor_body_content h2 {
+  font-size: 40px;
+}
+.doctor_body .doctor_body_content h3 {
+  font-size: 27px;
+}
+.doctor_body .doctor_body_content p {
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=style.css.map */
