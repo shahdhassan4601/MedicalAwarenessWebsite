@@ -1293,7 +1293,33 @@ ul {
   font-weight: 600;
   width: 100%;
 }
+.event_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+
+.event_title{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.event_description{
+  width: 20%;
+  color: white;
+  background-color: tomato;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
 /* line 643, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_blog.scss */
 .blog_right_sidebar .widget_title {
   font-size: 20px;
