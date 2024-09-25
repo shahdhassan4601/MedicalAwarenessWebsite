@@ -1136,11 +1136,13 @@ ul {
 /* line 521, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_blog.scss */
 .blog_item {
   margin-bottom: 50px;
+  margin-top: 100px;
+    
 }
 
 /* line 525, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_blog.scss */
 .blog_details {
-  padding: 30px 0 20px 10px;
+  padding: 20px 0 20px 10px;
   box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
 }
 
@@ -1154,11 +1156,12 @@ ul {
 /* line 533, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_blog.scss */
 .blog_details p {
   margin-bottom: 30px;
+
 }
 
 /* line 537, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_blog.scss */
 .blog_details a {
-  color: #ff8b23;
+  color: black;
 }
 
 /* line 540, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_blog.scss */
@@ -1219,6 +1222,10 @@ ul {
   display: table;
 }
 
+.blog_item{
+  text-align: right;
+}
+
 /* line 592, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_blog.scss */
 .blog_item_img {
   position: relative;
@@ -1226,14 +1233,20 @@ ul {
 
 /* line 595, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_blog.scss */
 .blog_item_img .blog_item_date {
-  position: absolute;
-  bottom: -10px;
-  left: 10px;
-  display: block;
+  position: relative;
+  float: right;
+  top: -50px;
+  right: 50px;
+  width: 100px;
+  height: 100px;
   color: #fff;
-  background-color: #0065e1;
-  padding: 8px 15px;
+  background-color:  #0065e1;
+  text-align: center;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 @media (min-width: 768px) {
@@ -1273,6 +1286,12 @@ ul {
   .blog_item_img .blog_item_date p {
     font-size: 18px;
   }
+}
+
+.blog_item .blog_details a{
+  font-size: 25px;
+  font-weight: 600;
+  width: 100%;
 }
 
 /* line 643, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_blog.scss */
@@ -5940,5 +5959,46 @@ h1, h2, h3, h4, h5, h6 {
 }
 .doctor_body .doctor_body_content p {
   margin-bottom: 20px;
+}
+
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 100px auto;
+}
+
+/* Individual gallery item styling */
+.gallery-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* .lazy_image {
+  background-image: url('../img/beating_hearts.gif'); 
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.5s ease-in-out; 
+  opacity: 0; 
+}
+.loaded {
+  opacity: 1; 
+} */
+
+.gallery-item p {
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
 }
 /*# sourceMappingURL=style.css.map */
