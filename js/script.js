@@ -10,6 +10,11 @@
         .then(data => {
             document.getElementById('footer').innerHTML = data;
         })
+        fetch('search_bar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('search').innerHTML = data;
+        })
         function search() {
           var query = document.getElementById("searchInput").value;
           var results = document.getElementById("searchResults");

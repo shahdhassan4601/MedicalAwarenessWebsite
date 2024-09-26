@@ -1314,9 +1314,8 @@ ul {
 .event_description{
   width: 20%;
   color: white;
-  background-color: tomato;
   text-align: center;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 600;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -3322,6 +3321,12 @@ ul {
   position: relative;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Light grey border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  overflow: hidden; /* To prevent any overflow */
+  background-color: #fff;
 }
 
 /* line 14, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_doctor_list.scss */
@@ -3408,9 +3413,38 @@ ul {
 /* line 67, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_doctor_list.scss */
 .doctor_part .single_blog_item h3 {
   margin-bottom: 19px !important;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 700;
   text-align: center;
+}
+.doctor_part .single_blog_item h3:hover {
+  color:#0065e1;
+}
+.single_blog_img img {
+  transition: all 0.4s ease-in-out; /* Smooth transition for the hover effect */
+}
+
+.single_blog_img:hover img {
+  filter: brightness(80%) blur(2px);
+  transform: scale(1.05);
+  
+  /* -webkit-filter: brightness(80%) blur(2px); */
+}
+
+.single_blog_img:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent dark overlay */
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.single_blog_img:hover:after {
+  opacity: 1; /* Show the overlay on hover */
 }
 
 @media (max-width: 991px) {
@@ -5288,6 +5322,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0px;
   background-color: transparent;
   position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Light grey border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  overflow: hidden; /* To prevent any overflow */
+  background-color: #fff;
 }
 
 /* line 54, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_blog_part.scss */
