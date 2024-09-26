@@ -1320,6 +1320,28 @@ ul {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+.card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+/* Flex layout for blogs */
+.d-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.large-blog {
+  flex: 2; /* Larger card */
+  
+}
+
+.small-blogs {
+  flex: 1; /* Smaller cards */
+}
+.card-body{
+  text-align: right;
+}
 /* line 643, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_blog.scss */
 .blog_right_sidebar .widget_title {
   font-size: 20px;
