@@ -1340,10 +1340,19 @@ ul {
 }
 
 .small-blogs {
-  flex: 1; /* Smaller cards */
+  flex: 2; /* Smaller cards */
 }
 .card-body{
   text-align: right;
+}
+
+.search-results {
+  display: none; /* Hide results initially */
+}
+
+.search-results li {
+  list-style: none;
+  margin-bottom: 10px;
 }
 /* line 643, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_blog.scss */
 .blog_right_sidebar .widget_title {
