@@ -21,10 +21,13 @@
 /**************** common css start ****************/
 /* line 3, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_common.scss */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Cairo","Amiri","Tajawal", sans-serif;
   padding: 0;
   margin: 0;
   font-size: 14px;
+}
+body, h1, h2, h3, h4, h5, h6, p, a, span, div, input, textarea, button {
+  font-family: "Cairo","Amiri","Tajawal", sans-serif;
 }
 
 /* line 9, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_common.scss */
@@ -188,15 +191,15 @@ a:hover {
 }
 
 /* line 87, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_common.scss */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 , p, textarea , label, a{
   color: #242429;
-  font-family: "Playfair Display", serif;
+
 }
 
 /* line 91, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_common.scss */
 p {
   color: #666666;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cairo","Amiri","Tajawal", sans-serif;
   line-height: 1.929;
   font-size: 16px;
   margin-bottom: 0px;
@@ -515,7 +518,7 @@ ul {
   text-transform: capitalize;
   border: 1px solid #e4e6ea;
   border-radius: 2px;
-  font-family: "Playfair Display", serif;
+  font-family: "Cairo","Amiri","Tajawal", sans-serif;
   background-size: 200% auto;
 }
 
@@ -562,7 +565,7 @@ ul {
   transition: all .4s ease-in-out;
   text-transform: uppercase;
   border-radius: 2px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cairo","Amiri","Tajawal", sans-serif;
   background-size: 200% auto;
   border-radius: 5px;
   display: flex;
@@ -1333,7 +1336,7 @@ ul {
 
 .large-blog {
   flex: 2; /* Larger card */
-  
+
 }
 
 .small-blogs {
@@ -2330,9 +2333,9 @@ ul {
 .main_menu .navbar-brand {
   padding: 0rem !important;
   margin-bottom: 8px;
-  /* font-family: "Playfair Display", serif;
-  font-size: 40px;
-  font-weight: 800; */
+  font-family: "Cairo","Amiri","Tajawal", sans-serif;
+  /* font-size: 40px;
+  font-weight: 800;  */
 }
 
 @media (max-width: 576px) {
@@ -2404,7 +2407,7 @@ ul {
   color: #242429;
   font-size: 18px;
   padding: 38px 23px;
-  font-family: "Playfair Display", serif;
+  font-family: "Cairo","Amiri","Tajawal", sans-serif;
   line-height: 13px;
   text-transform: capitalize;
 }
@@ -2536,7 +2539,7 @@ ul {
   color: #fff;
   font-size: 15px;
   padding: 0px 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cairo","Amiri","Tajawal", sans-serif;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2673,7 +2676,7 @@ ul {
   font-weight: 500;
   color: #242429;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cairo","Amiri","Tajawal", sans-serif;
   text-align: right;
 }
 
@@ -2753,7 +2756,7 @@ ul {
 .banner_part .banner_text p {
   font-size: 15px;
   line-height: 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cairo","Amiri","Tajawal", sans-serif;
   color: #242429;
   /* padding-right: 20px; */
   text-align: right;
@@ -2764,7 +2767,7 @@ ul {
   .banner_part .banner_text p {
     font-size: 15px;
     line-height: 30px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Cairo","Amiri","Tajawal", sans-serif;
     color: #242429;
     text-align: center;
   }
@@ -2774,7 +2777,7 @@ ul {
   .banner_part .banner_text p {
     font-size: 15px;
     line-height: 30px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Cairo","Amiri","Tajawal", sans-serif;
     color: #242429;
     text-align: center;
   }
@@ -2784,7 +2787,7 @@ ul {
   .banner_part .banner_text p {
     font-size: 15px;
     line-height: 30px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Cairo","Amiri","Tajawal", sans-serif;
     color: #242429;
     text-align: center;
   }
@@ -2795,7 +2798,7 @@ ul {
   .banner_part .banner_text p {
     font-size: 15px;
     line-height: 30px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Cairo","Amiri","Tajawal", sans-serif;
     color: #242429;
     text-align: right;
   }
@@ -5477,7 +5480,7 @@ h1, h2, h3, h4, h5, h6 {
 .blog_part .blog_btn {
   font-size: 14px;
   text-transform: uppercase;
-  font-family: "Playfair Display", serif;
+  font-family: "Cairo","Amiri","Tajawal", sans-serif;
   font-weight: 500;
   margin-top: 20px;
   display: inline-block;
