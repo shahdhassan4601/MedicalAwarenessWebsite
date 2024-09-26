@@ -4,6 +4,12 @@
         .then(data => {
             document.getElementById('navbar').innerHTML = data;
         })
+        //fetch the footer from footer.html
+        fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer').innerHTML = data;
+        })
         function search() {
           var query = document.getElementById("searchInput").value;
           var results = document.getElementById("searchResults");
